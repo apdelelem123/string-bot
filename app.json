@@ -8,12 +8,12 @@
     
     "env": {
       "API_ID": {
-        "description": "ايبي هاش",
+        "description": "ايبي ايدي",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "ابب ايدي",
+        "description": "ايدي هاش",
         "value": "",
         "required": true
       },
@@ -25,12 +25,7 @@
       "OWNER_ID": {
         "description": "ايدي المالك",
         "value": "",
-        "required": true
-        },
-    "MUST_JOIN": {
-      "description": "الاشتراك الاجباري, ضع معرف قناتك بدون(@), و اضف البوت مشرف بها",
-      "required": true,
-      "value": "YY5Y8"
+        "required": trur
       },
       "MONGO_DB_URI": {
         "description": "رابط كود مونجو",
