@@ -13,7 +13,7 @@
         "required": true
       },
       "API_HASH": {
-        "description": "ايدي هاش",
+        "description": "ايبي هاش",
         "value": "",
         "required": true
       },
