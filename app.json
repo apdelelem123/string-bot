@@ -25,7 +25,7 @@
       "OWNER_ID": {
         "description": "ايدي المالك",
         "value": "",
-        "required": trur
+        "required": true
       },
       "MONGO_DB_URI": {
         "description": "رابط كود مونجو",
