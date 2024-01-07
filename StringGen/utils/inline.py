@@ -16,7 +16,7 @@ keyboard = InlineKeyboardMarkup(
                 ],
                 [
                     InlineKeyboardButton("الـمـطـور👷", user_id=OWNER_ID),
-                    InlineKeyboardButton("اوامـر الـبـوت", url="https://telegra.ph/%D8%A7%D9%88%D8%A7%D9%85%D8%B1-%D8%A8%D9%88%D8%AA-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AE%D8%B1%D8%A7%D8%AC-10-11")
+                    InlineKeyboardButton("اوامـر الـبـوت", url="rr_r_v")
                 ]
             ]
         )
