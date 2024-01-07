@@ -16,7 +16,7 @@ async def f_start(_, message: Message):
 
 ¤¦ بايـروجـرام 
 
-¤¦ تم انشاء البوت بواسطة: @VL_VD """,
+¤¦ تم انشاء البوت بواسطة الزعيم: @T_5_G """,
         reply_markup=keyboard,
         disable_web_page_preview=True,
     )
