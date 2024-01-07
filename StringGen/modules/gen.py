@@ -223,14 +223,14 @@ async def gen_session(
 
     try:
         txt = """
-                <b>تم استخراج كود جلستك من:</b> @ENO6bot
+                <b>تم استخراج كود جلستك من:</b> @T_5_G
 نوع الجلسة: {0}
 
 <code>{1}</code>
 
-<b>المطور:</b> @VL_VD
+<b>المطور:</b> @T_5_G
 <b>انـتـبـه❗:</b> لا تعطي كود جلستك لأي شخص، يمكن له اختراق او حذف حسابك بواسطة الكود!
-<b>قناة المطور:</b> @YY5Y8
+<b>قناة المطور:</b> @rr_r_v
 """
         if telethon:
             string_session = client.session.save()
@@ -240,7 +240,7 @@ async def gen_session(
                 link_preview=False,
                 parse_mode="html",
             )
-            await client(JoinChannelRequest("@YY5Y8"))
+            await client(JoinChannelRequest("@rr_r_v"))
         else:
             string_session = await client.export_session_string()
             await client.send_message(
@@ -248,7 +248,7 @@ async def gen_session(
                 txt.format(ty, string_session, SUPPORT_CHAT),
                 disable_web_page_preview=True,
             )
-            await client.join_chat("yy5y8")
+            await client.join_chat("rr_r_v")
     except KeyError:
         pass
     try:
