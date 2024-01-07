@@ -255,7 +255,7 @@ async def gen_session(
         await client.disconnect()
         await Anony.send_message(
             chat_id=user_id,
-            text=f"تم إستخراج بنجاح جلسة {ty}.\n\nمن فضلك تحقق من الرسائل المحفوظة.\n\nبوت الاستخراج بواسطة: @VL_VD.",
+            text=f"تم إستخراج بنجاح جلسة {ty}.\n\nمن فضلك تحقق من الرسائل المحفوظة.\n\nبوت الاستخراج بواسطة: @rr_r_v.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
